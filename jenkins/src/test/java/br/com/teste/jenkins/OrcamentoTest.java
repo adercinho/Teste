@@ -8,10 +8,9 @@ public class OrcamentoTest {
 
 	@Test
 	public void calculaValorImpostoDeSetePorCento() {
-		Orcamento o = new Orcamento(100.0);
+		Orcamento orcamento = new Orcamento(100.0);
 		Imposto imposto = new Imposto();
-		double calculaImposto = imposto.calculaImposto(o.getValor());
-		assertEquals(7.0, calculaImposto, Double.MIN_VALUE);
+		assertEquals(10.0, imposto.calcula(orcamento), Double.MIN_VALUE);
 	}
 
 }

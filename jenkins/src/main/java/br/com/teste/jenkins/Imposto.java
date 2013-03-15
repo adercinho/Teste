@@ -3,7 +3,7 @@ package br.com.teste.jenkins;
 public class Imposto {
 
 
-	public double calculaImposto(double valor){
-		return valor * 0.07;
+	public double calcula(Orcamento orcamento){
+		return orcamento.getValor() * 0.10;
 	}
 }
