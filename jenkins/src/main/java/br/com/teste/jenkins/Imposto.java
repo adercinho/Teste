@@ -4,6 +4,7 @@ public class Imposto {
 
 
 	public double calcula(Orcamento orcamento){
-		return orcamento.getValor() * 0.10;
+		//TODO INSIRA A LOGICA AQUI
+		return 0.0;
 	}
 }
