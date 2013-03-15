@@ -7,7 +7,7 @@ import org.junit.Test;
 public class OrcamentoTest {
 
 	@Test
-	public void calculaValorImpostoDeSetePorCento() {
+	public void calculaValorImpostoDezPorCento() {
 		Orcamento orcamento = new Orcamento(100.0);
 		Imposto imposto = new Imposto();
 		assertEquals(10.0, imposto.calcula(orcamento), Double.MIN_VALUE);
