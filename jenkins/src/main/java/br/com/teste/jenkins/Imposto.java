@@ -4,6 +4,7 @@ public class Imposto {
 
 
 	/**
+	 * O calculo do imposto retorna 10% do valor do orçamento
 	 * @param orcamento
 	 * @return valor do imposto referente ao orçamento
 	 */
