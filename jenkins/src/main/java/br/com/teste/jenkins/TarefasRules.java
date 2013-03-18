@@ -27,14 +27,14 @@ public class TarefasRules {
 		
 		if(Pacote.NORMAL == pacote){
 			if(isVolume == true && isPeso == true && isKm == true){
-			//	valorTarifa = Tarifa.NORMAL.getVlrTarifa() + (unidade_vendida / 1500) * Pacote.NORMAL.getVlrVariavel();
-				return 0.0;
+				valorTarifa = Tarifa.NORMAL.getVlrTarifa() + (unidade_vendida / 1500) * Pacote.NORMAL.getVlrVariavel();
+				return valorTarifa;
 			}
 			
 		}else if(Pacote.EXPRESSO == pacote){
 			if(isVolume == true && isPeso == true && isKm == true){
-			//	valorTarifa = Tarifa.EXPRESSO.getVlrTarifa() + ( unidade_vendida / 1500 ) * Pacote.EXPRESSO.getVlrVariavel();
-				return 0.0;
+				valorTarifa = Tarifa.EXPRESSO.getVlrTarifa() + ( unidade_vendida / 1500 ) * Pacote.EXPRESSO.getVlrVariavel();
+				return valorTarifa;
 			}
 		}else if(Pacote.ENVELOPE == pacote){
 			if(isKm == true){
