@@ -1,5 +1,11 @@
 package br.com.teste.jenkins;
 
+/**
+ * Classe especifica de regras de negocio.
+ * 
+ * @author Adércio Reinan
+ *
+ */
 public class Imposto {
 
 
